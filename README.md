@@ -5,7 +5,7 @@
 Our free API provides a content rating for any image. Detect inappropriate content from adult to violent and more subtle ratings including smoking, alcohol and suggestive.
 
 Example's of how to use the API
-* [Javascript - jQuery && AJAX && GET](../blob/master/Example-JS-JQUERY_AJAX_GET/)
+* [Javascript - jQuery && AJAX && GET](../master/Example-JS-JQUERY_AJAX_GET/)
 * [Javascript - jQuery && AJAX && POST](../blob/master/Example-JS-JQUERY_AJAX_POST/)
 * [Javascript - jQuery && AJAX && JSONP && POST](../blob/master/Example-JS-JQUERY_AJAX_JSONP_GET/)
 * [Javascript - AJAX && GET](../blob/master/Example-JS-AJAX_GET/)
