@@ -15,6 +15,15 @@ Example's of how to use the API
 * [PHP - file_get_contents](../blob/master/Example-PHP-FILE_GET_CONTENTS/)
 * [CURL - GET](../blob/master/Example-CURL/)
 
+#####Url
+
+```
+https://www.moderatecontent.com/api/?url=http://www.moderatecontent.com/img/logo.png
+
+```
+
+
+#####jQuery
 ```javascript
 $.ajax('https://www.moderatecontent.com/api/', {
     method: "GET",
