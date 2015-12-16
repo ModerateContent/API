@@ -1,8 +1,6 @@
 ![alt text](https://www.moderatecontent.com/img/logo.png "ModerateContent.com")
 
-# moderatecontent.com
-
-## The FREE Content Moderation API
+### ModerateContent.com - The FREE Content Moderation API (https://www.moderatecontent.com)
 
 Example's of how to use the API
 * [Javascript - jQuery && AJAX && GET](../blob/master/Example-JS-JQUERY_AJAX_GET/)
