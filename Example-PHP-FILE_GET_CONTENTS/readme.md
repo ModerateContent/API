@@ -1,7 +1,7 @@
 ![alt text](https://www.moderatecontent.com/img/logo.png "ModerateContent.com")
 
-# moderatecontent.com
+### ModerateContent.com - The FREE Content Moderation API (https://www.moderatecontent.com)
 
-## The FREE Content Moderation API
+Our free API provides a content rating for any image. Detect inappropriate content from adult to violent and more subtle ratings including smoking, alcohol and suggestive.
 
 Examples of consuming the API with PHP using the file_get_contents method.
