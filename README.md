@@ -1,4 +1,4 @@
-![alt text](https://www.moderatecontent.com/img/logo.png "ModerateContent.com")
+![alt text](https://www.moderatecontent.com/img/moderate_content_com_logo.png "ModerateContent.com")
 
 ### ModerateContent.com - The FREE Content Moderation API (https://www.moderatecontent.com)
 
