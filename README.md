@@ -1,22 +1,22 @@
-![alt text](https://www.moderatecontent.com/img/moderate_content_com_logo.png "ModerateContent.com")
+![alt text](https://moderatecontent.com/img/mdr8/logo_v3.png "ModerateContent.com")
 
-### ModerateContent.com - The FREE Content Moderation API (https://www.moderatecontent.com)
+### ModerateContent.com - The FREE Content Moderation API (https://moderatecontent.com)
 
 Our free API provides a content rating for any image. Detect inappropriate content from adult to violent and more subtle ratings including smoking, alcohol and suggestive.
 
 #####Url
 
 ```
-https://www.moderatecontent.com/api/?url=http://www.moderatecontent.com/img/logo.png
+https://api.moderatecontent.com/moderate/?url=http://www.moderatecontent.com/img/logo.png&key=<your_free_api_key_from_moderatecontent.com>
 
 ```
 
 #####jQuery
 ```javascript
-$.ajax('https://www.moderatecontent.com/api/', {
+$.ajax('https://api.moderatecontent.com/moderate/', {
     method: "GET",
     dataType: 'json',
-    data: {url: 'http://www.moderatecontent.com/img/logo.png'},
+    data: {url: 'http://www.moderatecontent.com/img/logo.png', key: '<your_free_api_key_from_moderatecontent.com>'},
     success: function (response) {
         console.log(response);
     }
