@@ -12,11 +12,15 @@
         
         // URL to connect to the api http|https
         
-        var ajax_url = "https://www.moderatecontent.com/api/";
+        var ajax_url = "https://api.moderatecontent.com/moderate/";
         
         // URL of our image, change it to your URL
         
         var image_url = "http://www.moderatecontent.com/img/logo.png"; 
+
+        // set the key for the api 
+
+        var key = '<your_free_api_key_from_moderatecontent.com>';
         
         // handle all the states of a ajax call
         
@@ -57,7 +61,7 @@
         xhttp.onreadystatechange = handle_ajax_response;
         xhttp.open("POST", ajax_url, true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.send("url=" + image_url);
+        xhttp.send("url=" + image_url + '&key=' + key);
     </script>
 </body>
 </html>

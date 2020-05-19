@@ -18,11 +18,15 @@
         
         // URL to connect to the api http|https
         
-        var ajax_url = "https://www.moderatecontent.com/api/";
+        var ajax_url = "https://api.moderatecontent.com/moderate/";
         
         // URL of our image, change it to your URL
         
         var image_url = "http://www.moderatecontent.com/img/logo.png"; 
+
+        // set the key for the api 
+
+        var key = '<your_free_api_key_from_moderatecontent.com>';
         
         // call the api 
         
@@ -30,7 +34,7 @@
             var el = $('#this_is_where_we_put_the_results');
             jQuery.ajax({
                 type: "GET",
-                url: ajax_url + "?url=" + image_url,
+                url: ajax_url + "?url=" + image_url + "&key=" + key,
                 dataType: "jsonp",
                 jsonp: "callback",
                 success: function (response_json) {
@@ -58,7 +62,7 @@
         // start the request after the jquery library has loaded
         
         $(document).ready(function(){
-            moderate_url(ajax_url, image_url);
+            moderate_url(ajax_url, image_url, key);
         });
 
     </script>

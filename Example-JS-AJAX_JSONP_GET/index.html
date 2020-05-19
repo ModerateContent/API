@@ -12,7 +12,7 @@
         
         // URL to connect to the api http|https
         
-        var ajax_url = "https://www.moderatecontent.com/api/";
+        var ajax_url = "https://api.moderatecontent.com/moderate/";
         
         // URL of our image, change it to your URL
         
@@ -27,9 +27,13 @@
             var head = document.head;
             var script = document.createElement("script");
             
-            // set the url for the api and the image
+            // set the image url for the api 
 
             script.setAttribute("src", url);
+
+            // set the key for the api 
+
+            script.setAttribute("key", '<your_free_api_key_from_moderatecontent.com>');
             
             // this add, remove combo allows this function to be called repeatedly
             

@@ -1,6 +1,6 @@
 <?php
 function moderate_url($image_url){
-    $url = "https://www.moderatecontent.com/api/?url=" . $image_url;
+    $url = "https://api.moderatecontent.com/moderate/?url=" . $image_url . "&key=<your_free_api_key_from_moderatecontent.com>";
     $file_get_contents_result = file_get_contents($url);
     
     if ($file_get_contents_result === false){

@@ -7,7 +7,7 @@ if (!function_exists('curl_version')){
 }
 
 function moderate_url($image_url){
-    $ajax_url = "https://www.moderatecontent.com/api/?url=" . $image_url;
+    $ajax_url = "https://api.moderatecontent.com/moderate/?url=" . $image_url . "&key=<your_free_api_key_from_moderatecontent.com>";
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $ajax_url);
     curl_setopt($ch, CURLOPT_HEADER, 0);

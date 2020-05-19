@@ -1,7 +1,9 @@
-![alt text](https://www.moderatecontent.com/img/logo.png "ModerateContent.com")
+![alt text](https://moderatecontent.com/img/mdr8/logo_v3.png "ModerateContent.com")
 
 ### ModerateContent.com - The FREE Content Moderation API (https://www.moderatecontent.com)
 
-Our free API provides a content rating for any image. Detect inappropriate content from adult to violent and more subtle ratings including smoking, alcohol and suggestive.
-
 Examples of consuming the API with javascript and jQuery using the GET method.
+
+Our free API provides a content rating for any image. Realtime Image Moderation API to protect your community.
+Trusted across the internet to protect communities against offensive content.
+With an API that couldn't be easier to integrate into your website, app or platform.
